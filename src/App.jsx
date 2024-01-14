@@ -47,7 +47,7 @@ function App() {
   }
     return(
         <>
-          <BrowserRouter>
+          <BrowserRouter basename="/Poke-commerce/">
             <Routes>
               <Route index element ={<HomePage addToCart = {addToCart}></HomePage>}></Route>
               <Route path='/home' element={<HomePage addToCart = {addToCart}></HomePage>}></Route>
